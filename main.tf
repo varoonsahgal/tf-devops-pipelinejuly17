@@ -15,5 +15,5 @@ terraform {
 
 resource "azurerm_resource_group" "rg" {
 name     = "vs-basic-pipeline" #change the name please!
-location = "westus2"
+location = "eastus2"
 }
